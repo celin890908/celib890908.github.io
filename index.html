@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello, here is Celin Ho</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body onload="alert('Hey!Welcome')">
+        <style>
+            /*css:背景色塊設置*/
+            .main{
+            padding: 24px;
+            background: -webkit-linear-gradient(-8deg, rgb(64, 96, 138),rgb(213, 149, 221));
+            /*css特效:使用linear-gradient*/
+            color: rgb(210, 227, 252);
+            font-size: 15px;
+            line-height: 28px;
+            letter-spacing: 3px;
+            font-family: '微軟正黑體', sarif;
+            }
+
+            /*css特效:round corner-讓個人資訊可以置入切圓角之圖形中*/
+            .infor1{
+            border-radius: 15px 30px ;
+            background: rgb(159, 188, 214);
+            width: 430px;
+            height: 30px;
+            color:rgb(34, 55, 73);
+            font-size: 12px;
+            font-weight: bold;
+            padding-left: 10px;
+            }
+            .infor2{
+            border-radius: 15px 30px ;
+            background: rgb(159, 188, 214);
+            width: 430px;
+            height: 30px;
+            color:rgb(34, 55, 73);
+            font-size: 12px;
+            font-weight: bold;
+            padding-left: 10px;
+            }
+
+            /*css特效:使用horizontal navigation bar*/
+            .button ul{
+            font-size: 20px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow:hidden;
+            background-color: rgb(233, 186, 196);
+            top:0;
+            width:100%;
+            font-family: '微軟正黑體', sarif;
+            }
+            li {
+            float: left;
+            }
+            li a {
+            display: block;
+            color:white;
+            text-align: center;
+            padding: 10px 14px;
+            text-decoration: none;
+            }
+             /*css特效:使用hover觸發特效*/
+            li a:hover{
+            background-color: rgb(80, 66, 66);
+            }
+
+            #introduction{
+            font-size: 16px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow:hidden;
+            background-color: rgb(253, 242, 244);
+            top:0;
+            width:100%;
+            font-family: '微軟正黑體', sarif;
+            color:rgb(21, 38, 51);
+            }
+            #Myskill{
+            font-size: 16px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow:hidden;
+            top:0;
+            width:100%;
+            font-family: '微軟正黑體', sarif;
+            color:rgb(21, 38, 51);
+            }
+            #myWork{
+            font-size: 16px;
+            font-weight:bold;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow:hidden;
+            background-color: rgb(253, 242, 244);
+            top:0;
+            width:100%;
+            font-family: '微軟正黑體', sarif;
+            color:rgb(21, 38, 51);
+            }
+
+
+            
+            /*css特效:transition轉場特效，hover可看變化值*/
+            div.sk1{
+            width: 30px;
+            height: 50px;
+            background: rgb(233, 186, 196);
+            transition: width 2s;
+            }
+            .sk1:hover{
+            width: 100px;
+            }
+            div.sk2{
+            width: 30px;
+            height: 50px;
+            background: rgb(233, 186, 196);
+            transition: width 2s;
+            }
+            .sk2:hover{
+            width: 136px;
+            }
+            div.sk3{
+            width: 30px;
+            height: 50px;
+            background: rgb(233, 186, 196);
+            transition: width 2s;
+            }
+            .sk3:hover{
+            width: 280px;
+            }
+
+             /*css特效:區分年份線條*/
+            .listExperience>li{
+            display: flex;
+             margin-bottom: 16px;
+  
+            }
+            .listExperience>li:nth-child(1) ul{
+            border-color: #eb9d98
+            }
+            .listExperience li ul{
+            padding-left: 16px;
+            margin-left: 16px;
+            border-left: solid 4px white
+            }
+            .listExperience>li:nth-child(2) ul{
+            border-color: #b4605a
+            }
+            .listExperience>li:nth-child(3) ul{
+            border-color: #b4605a
+            }
+
+        </style>
+
+        <div class="aboutme">
+            <div class="main">
+              <h1>Celin Ho</h1>
+              <h4>sophomore majors in MIS now</h4>
+              <hr style="
+                border: none;
+                border-bottom: solid 4px #fdc0bc;
+                width: 40%;
+                margin-left: 0;
+              ">
+              <p class="infor1">  2000/01/01 | celin123@gmail.com | 0900123123</p>
+              <p class="infor2">  National Central University | MIS | sophomore</p>
+            </div>
+            <br>
+
+            <div class="button">
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+
+                    <li><a href="#Myskill">My skill</a></li>
+
+                    <li><a href="#myWork">Working Experiences</a></li>
+                </ul>
+            </div>
+
+            <section id="introduction">
+                <h1>My Introduction 自我介紹</h1>
+                <h3>Hello everyone!<br>
+                    Here is Celin from Taiwan,I'm a sophomore(well, going to be junior) and majors in MIS now!<br>
+                    I love Design, Singing and everything about ART!<br>
+                    And I usually spend hours of my leisure time  learning something which sounds attractive lol.
+                <br>
+                <br>
+                    我是Celin，目前就讀於中央大學資管系大二。<br>
+                    性格活潑、外相，只要投入一件事情，便會力所及能去做好。<br>
+                    從小到大的興趣都與藝術相關，也學過六年美術。<br>
+                    在這期間也陸續擔任自創設計腳色與社團的粉專小編，<br>
+                    對於經營社群及文案撰寫都有相關經驗。</h3>
+            </section>
+
+            <section id="Myskill">
+                <h1>My Skill</h1>
+                <h5 style="color: rosybrown;">I loe everything about ART,<br>
+                That's show you what can I do!<br>
+                (Pleaze move your cursor on these blocks!<br></h5>
+                digital art<div class="sk1"></div>
+                sketch & comic<div class="sk2"></div>
+                handicraft<div class="sk3"></div>
+
+            </section>
+
+            <section id="myWork">
+                <h1>Working Experiences</h1>
+                <ul style="list-style: none;" class="listExperience">
+                    <li class="year" style="color: rosybrown;">2020
+                      <ul>
+                        <li style="list-style: none; color:rgb(82, 56, 56);">中央大學 嘻哈研究社小編</li>
+                        <br>
+                        <li style="list-style: none; color:rgb(82, 56, 56);">XXX 社群小編</li>
+                        <br>
+                        <li style="list-style: none;color:rgb(82, 56, 56);">台X達人秀 插畫家</li>
+                        <br>
+                        <br>
+                      </ul>
+                    </li>
+                </ul>
+
+                <br>
+                <br>
+
+                <ul style="list-style: none;" class="listExperience">
+                    <li class="year" style="color: rosybrown;">2021
+                        <ul>
+                            
+                          <li style="list-style: none; color:rgb(82, 56, 56);">Editor of Central University Hip Hop</li>
+                          <br>
+                          <li style="list-style: none;color:rgb(82, 56, 56);">ABC community editor</li>
+                          <br>
+                          <li style="list-style: none;color:rgb(82, 56, 56);">Taiwan X's Talent Show Illustrator</li>
+                          <br>
+                        </ul>
+                    </li>
+                </ul>
+
+                <br>
+                <br>
+
+                <ul style="list-style: none;" class="listExperience">
+                    <li class="year" style="color: rosybrown;">2022
+                        <ul>
+                            
+                          <li style="list-style: none; color:rgb(82, 56, 56);">セントラル大学ヒップホップの編集者</li>
+                          <br>
+                          <li style="list-style: none;color:rgb(82, 56, 56);">ABCコミュニティエディター</li>
+                          <br>
+                          <li style="list-style: none;color:rgb(82, 56, 56);">台湾Xのタレントショーイラストレーター</li>
+                          <br>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+        </div>
+    </body>
+</html>
